@@ -19,12 +19,16 @@ public class ApplicationRequestServerSideOperations implements Config {
     }
     public ApplicationRequestServerSideOperations() {
         Map<String, RequestDefinition> newMap = new HashMap<String, RequestDefinition>();
+        putAll(OfficeRequestServerSideOperations.values(), newMap);
         putAll(EmployeeRequestServerSideOperations.values(), newMap);
+        putAll(DepartmentRequestServerSideOperations.values(), newMap);
         map = Collections.unmodifiableMap(newMap);
     }
     public Set<Class<? extends Record>> recordTypes() {
         Set<Class<? extends Record>> records = new HashSet<Class<? extends Record>>();
+        records.add(OfficeRecord.class);
         records.add(EmployeeRecord.class);
+        records.add(DepartmentRecord.class);
         return records;
     }
 }

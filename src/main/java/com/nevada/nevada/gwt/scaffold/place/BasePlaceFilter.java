@@ -17,7 +17,13 @@ public class BasePlaceFilter<T> implements ApplicationPlaceFilter<T> {
   public BasePlaceFilter(T defaultValue) {
     this.defaultValue = defaultValue;
   }
+  public T filter(OfficeScaffoldPlace place) {
+    return defaultValue;
+  }
   public T filter(EmployeeScaffoldPlace place) {
+    return defaultValue;
+  }
+  public T filter(DepartmentScaffoldPlace place) {
     return defaultValue;
   }
   public T filter(ApplicationListPlace place) {

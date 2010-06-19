@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<h1>Maven</h1>
+		<ul>compile: 4s</ul>
+		<ul>test: 10s</ul>
+		<ul>install: 2m41s</ul>
+	</g:HTMLPanel>
+</ui:UiBinder> 

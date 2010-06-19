@@ -7,5 +7,7 @@ package com.nevada.nevada.gwt.scaffold.place;
  */
 public interface ApplicationPlaceFilter<T> {
   T filter(ApplicationListPlace place);
+  T filter(OfficeScaffoldPlace place);
   T filter(EmployeeScaffoldPlace place);
+  T filter(DepartmentScaffoldPlace place);
 }

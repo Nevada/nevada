@@ -7,7 +7,9 @@ public class ApplicationEntityTypesProcessor {
     private static Set<Class<? extends Record>> get() {
         if (instance == null) {
             instance = new HashSet<Class<? extends Record>>();
+            instance.add(OfficeRecord.class);
             instance.add(EmployeeRecord.class);
+            instance.add(DepartmentRecord.class);
         }
         return instance;
     }

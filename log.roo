@@ -7,3 +7,6 @@ entity --class ~.Employee --testAutomatically
 field string userName --sizeMin 3 --sizeMax 30
 field string --fieldName department
 gwt setup
+exit
+// Spring Roo 1.1.0.M1 [rev 3a0b8a3] log closed at 2010-06-19 14:36:18
+// Spring Roo 1.1.0.M1 [rev 3a0b8a3] log opened at 2010-06-19 14:43:11

@@ -1,0 +1,9 @@
+
+#ignore thumbnails created by windows
+Thumbs.db
+#ignore target folder
+target/
+.classpath
+.project
+datanucleus.log
+.settings/

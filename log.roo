@@ -17,3 +17,6 @@ entity --class ~.Office --testAutomatically
 field string --fieldName name
 field string --fieldName location
 field string --fieldName name --class ~.Department
+persistence setup --database GOOGLE_APP_ENGINE --provider DATANUCLEUS 
+persistence setup --database GOOGLE_APP_ENGINE --provider DATANUCLEUS --applicationId nevadademo
+persistence setup --database HYPERSONIC_IN_MEMORY --provider DATANUCLEUS 

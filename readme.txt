@@ -42,3 +42,6 @@ entity --class ~.server.domain.Employee --testAutomatically
 field string --fieldName userName --sizeMin 3 --sizeMax 30
 field string --fieldName department
 gwt setup
+
+
+sfd

@@ -1,0 +1,9 @@
+// Spring Roo 1.1.0.M1 [rev 3a0b8a3] log opened at 2010-06-19 12:51:54
+// Spring Roo 1.1.0.M1 [rev 3a0b8a3] log opened at 2010-06-19 14:19:14
+hint
+project --topLevelPackage com.nevada.nevada
+persistence setup --provider DATANUCLEUS --database HYPERSONIC_IN_MEMORY 
+entity --class ~.Employee --testAutomatically 
+field string userName --sizeMin 3 --sizeMax 30
+field string --fieldName department
+gwt setup
